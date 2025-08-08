@@ -1,0 +1,1 @@
+Invoke-RestMethod -Uri http://127.0.0.1:32024/predict -Method Post -Headers @{ "Content-Type" = "application/json" } -Body '{"features": [8.3252, 41, 6.984, 1.023, 322, 2.555, 37.88, -122.23]}'
